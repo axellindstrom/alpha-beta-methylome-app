@@ -55,7 +55,13 @@ ui <- suppressWarnings(navbarPage(
                     
                     uiOutput("downloadButtonContainer"),
                     
+                    p(HTML('<p style="text-align:justify; font-size:11px;">
+                              You are free to use and adapt the outputs for any purpose, as long as you provide appropriate credit. Please cite the accompanying scientific article: 
+                              <a href="https://www.nature.com/articles/s42255-026-01498-9" target="_blank">Cell-specific DNA methylation in human alpha and beta cells regulates gene expression in type 2 diabetes</a>
+                           </p>')),
+                    
                     width = '2'),
+                    
                   
                   mainPanel(
                     tabsetPanel(
@@ -95,7 +101,7 @@ ui <- suppressWarnings(navbarPage(
                                         <h3> About </h3>
                                         <p style="text-align:justify;">
                                         The alpha-beta-methylome web application is a comprehensive open resource based on the whole genome bisulfite sequencing and RNA-seq data from sorted human pancreatic islet α- and β-cells included in 
-                                        <a href="https://doi.org/10.1038/s42255-026-01498-9">Cell-specific DNA methylation in human alpha and beta cells regulates gene expression in type 2 diabetes</a>. alpha-beta-methylome lets the user explore cell type-, T2D-, age-, and sex-associations in DNA methylation and gene expression.
+                                        <a href="https://www.nature.com/articles/s42255-026-01498-9" target="_blank">Cell-specific DNA methylation in human alpha and beta cells regulates gene expression in type 2 diabetes</a>. alpha-beta-methylome lets the user explore cell type-, T2D-, age-, and sex-associations in DNA methylation and gene expression.
                                         </p>
                                         <h3> How To </h3>
                                         <p style="text-align:justify;">
@@ -152,7 +158,7 @@ ui <- suppressWarnings(navbarPage(
                                           </ul>
                                         <p style="text-align:justify;">
                                         For more information regarding sample characteristics and data availability see accompanying 
-                                        <a href="https://doi.org/10.1038/s42255-026-01498-9">scientific article</a>.
+                                        <a href="https://www.nature.com/articles/s42255-026-01498-9" target="_blank">scientific article</a>.
                                         </p>
                                         <h3> Output Licensing </h3>
                                           <p style="text-align:justify;">
@@ -165,7 +171,7 @@ ui <- suppressWarnings(navbarPage(
                                         <br>
                                         <p style="text-align:justify;">
                                         You are free to use and adapt the outputs for any purpose, as long as you provide appropriate credit. Please cite the accompanying scientific article: 
-                                        <a href="https://doi.org/10.1038/s42255-026-01498-9">Cell-specific DNA methylation in human alpha and beta cells regulates gene expression in type 2 diabetes</a>
+                                        <a href="https://www.nature.com/articles/s42255-026-01498-9" target="_blank">Cell-specific DNA methylation in human alpha and beta cells regulates gene expression in type 2 diabetes</a>
                                         </p>
                                                '))
                                  )
