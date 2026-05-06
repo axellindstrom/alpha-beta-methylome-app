@@ -55,7 +55,7 @@ ui <- suppressWarnings(navbarPage(
                     
                     uiOutput("downloadButtonContainer"),
                     
-                    p(HTML('<p style="text-align:justify; font-size:11px;">
+                    p(HTML('<p style="text-align:justify; font-size:13px;">
                               You are free to use and adapt the outputs for any purpose, as long as you provide appropriate credit. Please cite the accompanying scientific article: 
                               <a href="https://www.nature.com/articles/s42255-026-01498-9" target="_blank">Cell-specific DNA methylation in human alpha and beta cells regulates gene expression in type 2 diabetes</a>
                            </p>')),
